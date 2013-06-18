@@ -1,0 +1,121 @@
+body {
+	background-image: url('http://www.webdesigndevelopers.co.nz/web_design_tutorials/designer_website_resources/2658-seamless-floral-background.jpg');
+  background-repeat: repeat;
+  
+  /* background: #F1F1DC;
+  http://www.interiorplace.com/product_images/z/947/291-70202L__97512.jpg
+  background-image: url("../img/decoration.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left bottom; */
+	font: #12120c;
+	font-family: "PT Sans";
+}
+
+a {
+	font-family: "PT Sans";
+}
+
+.navbar {
+  border-bottom: 1px solid #781145;
+}
+
+.navbar-inner {
+	background: #8F0853;
+  border: 0;
+}
+
+.navbar .brand {
+	text-shadow: none;
+	color: #f5f4e1;
+	font-family: "Patrick Hand SC";
+	font-size: 25px;
+  margin-bottom: 3px;
+}
+
+.navbar .nav>li>a {
+	text-shadow: none;
+  padding-top: 15px;
+	color: #B5B690;
+}
+
+.navbar .nav>li>a:hover {
+	color: #3B3131;
+}
+
+.navbar .divider-vertical {
+  margin-top: 4px;
+	border-right: 1px dotted #781145;
+	border-left: 1px dotted #781145;
+}
+
+.icon-leaf {
+  padding-right: 10px;
+}
+
+.blurb {
+  background: #F1F1DC;
+	margin-top: 20px;
+	padding: 25px 5px;
+	border: 5px dotted;
+	border-color: #cdcfa4;
+	border-radius: 30px;
+}
+
+.me img {
+	border: 5px solid;
+	border-color: #575e3b;
+	border-radius: 25px;
+}
+
+.about h2 {
+  padding-top: 20px;
+  color: #8F0853;
+}
+
+.tagline {
+  font-size: 16px;
+  color: rgb(166, 146, 102);
+  font-style: italic;
+  letter-spacing: .14em;
+}
+
+.little {
+  background: #F1F1DC;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-left: 20px;
+  border: 5px dotted;
+  border-color: #cdcfa4;
+  border-radius: 30px;
+}
+
+.little h3 {
+	color: #8F0853;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.little h5 {
+	margin: 0;
+}
+
+.little ul {
+	list-style: circle;
+	margin: 0;
+  padding-left: 25px;
+}
+
+.little li {
+  font-family: "PT Sans";
+}
+
+.little a {
+	color: #717348;
+}
+
+.little a:hover {
+	color: #3B3131;
+  text-decoration: none
+}
