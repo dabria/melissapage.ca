@@ -55,7 +55,7 @@ a {
 
 .blurb {
   background: #F1F1DC;
-	margin-top: 20px;
+	margin-top: 40px;
 	padding: 25px 5px;
 	border: 5px dotted;
 	border-color: #cdcfa4;
@@ -82,7 +82,7 @@ a {
 
 .little {
   background: #F1F1DC;
-  margin-top: 20px;
+  margin-top: 30px;
   padding-bottom: 15px;
   padding-top: 10px;
   padding-left: 20px;
@@ -109,6 +109,7 @@ a {
 
 .little li {
   font-family: "PT Sans";
+  padding-right: 10px;
 }
 
 .little a {
@@ -118,4 +119,19 @@ a {
 .little a:hover {
 	color: #3B3131;
   text-decoration: none
+}
+
+.info {
+  padding-right: 25px;
+  padding-left: 5px;
+}
+
+.info h2 {
+  color: #8F0853;
+}
+
+.mebig img {
+  border: 5px solid;
+  border-color: #575e3b;
+  border-radius: 25px;
 }
