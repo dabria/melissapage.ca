@@ -1,5 +1,5 @@
 body {
-    background: #F1F1DC url('../img/bg.jpg');
+    background: #F1F1DC url('../img/bgfast.jpg');
     background-repeat: repeat;
     font: #12120c;
     font-family: "PT Sans";
@@ -64,7 +64,7 @@ p {
 
 .blurb {
     background: #F1F1DC;
-    margin: 5% auto;
+    margin: 5% 5%;
     padding: 2.5% .5%;
     border: 5px dotted;
     border-color: #cdcfa4;
@@ -166,8 +166,8 @@ p {
 
 /* MEDIA QUERIES */
 
-/* 400 - Single File */
-@media screen and (max-width: 400px) {
+/* 300-399 - smallest */
+@media screen and (min-width: 300px) and (max-width: 379px) {
     .grid_1,
     .grid_2,
     .grid_3,
@@ -183,6 +183,78 @@ p {
         width: 100%;
     }
 
+    body {
+        padding-top: 40px;
+    }
+
+    .navbar .brand {
+        font-size: 1.6em;
+        padding-left: 26px;
+    }
+
+    .nav>li>a {
+        font-size: 0.9em;
+        padding: 0;
+    }
+
+    .navbar .divider-vertical {
+    margin: 0 auto;
+    padding: 0;
+    }
+
+    .me {
+        width: 100%;
+    }
+
+    .me img {
+        display: none;
+        width: 100%;
+    }
+
+    .what {
+        margin: -10% auto;
+        text-align: center;
+        float: none;
+    }
+
+    .about {
+        margin: 0 auto;
+        width: 95%;
+        float: none;
+        text-align: center;
+    }
+
+    .tagline {
+        margin: 10% auto 3%;
+    }
+
+    .about p {
+        margin-right: 0;
+    }
+
+    .lower {
+        max-width: 65%;
+        margin: 0 auto;
+    }
+
+    .holder {
+        margin: 0 auto;
+    }
+
+    .little {
+        margin: 0 auto 4%;
+        width: auto;
+        float: none;
+        font-size: .85em;
+    }
+
+    .decal {
+        display: none;
+    }
+}
+
+/* 400 - Single File */
+@media screen and (min-width: 380px) and (max-width: 400px) {
     .navbar .brand {
         font-size: 1.6em;
         padding-left: 7%;
@@ -231,8 +303,8 @@ p {
     }
 }
 
-/* 401-534 - Single File */
-@media screen and (min-width:401px) and (max-width: 550px) {
+/* 401-550 - Single File */
+@media screen and (min-width:401px) and (max-width: 579px) {
     body {
       padding-bottom: 3%;
       padding-top: 70px;
@@ -302,68 +374,77 @@ p {
     }
 }
 
-
-/* 535-893 - Middle Grounds */
-@media screen and (min-width: 551px) and (max-width: 851px) {
+/* 580-851 - Middle Grounds */
+@media screen and (min-width: 580px) and (max-width: 851px) {
     body {
       padding-bottom: 3%;
       padding-top: 70px;
     }
 
     .navbar .brand {
-        padding-left: 30px;
+        padding-left: 25px;
     }
 
     .blurb {
-        margin: 0 5% 2%;
+      margin: 0 5% 5%;
+      text-align: justify;
+      margin-bottom: 2%;
     }
 
     .me {
-        margin: 0 auto;
-        float: left
-    }
-
-    .me img {
-        margin: 2% 8% 5%;
-        max-width: 90%;
-    }
-
-    .what {
-        margin: 0 auto;
-        padding-left: 5%;
+      width: 90%;
+      text-align: center;
     }
 
     .what h2 {
-        margin: 25% 6%;
+        margin: 3% auto;
+    }
 
+    .me img {
+      margin: 2% 0 auto;
+      margin-bottom: -13%;
+      max-width: 200px;
+    }
+
+    .what {
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
     }
 
     .about {
-        text-align: center;
-        width: 90%;
+      width: 90%;
     }
 
-    .about .tagline {
-        text-align: center;
-        margin: 1% auto 1%;
+    .about p {
+      margin: 0 auto;
+    }
+
+    .tagline {
+      text-align: center;
+      padding-bottom: 4%;
+    }
+
+    .holder {
+      width: 100%;
+      margin: 0 auto;
     }
 
     .lower {
-        margin: 0 auto;
-        width: 90%;
+      margin: 0 auto;
+      width: 60%;
     }
 
     .little {
-        margin: 0 auto 3%;
-        float: none;
+      margin: 6% auto 0;
+      float: none;
     }
-}
+} 
 
-
-/* Littles Together */
+/* 852-1000 */
 @media screen and (min-width: 852px) and (max-width: 1000px) {
     .blurb {
-        margin: 5% 3% 2%;
+        margin: 5% 3% 4%;
     }
 
     .navbar .brand {
